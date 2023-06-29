@@ -1,52 +1,101 @@
-# Trading Strategy
+# Trading Strategy with Interactive Colab Notebook
 
-This project implements a simple trading strategy using moving averages. It fetches stock price data from the Alpha Vantage API and applies the strategy to generate buy and sell signals. The results, including accuracy, total profit/loss, and visualization, are provided to evaluate the performance of the strategy.
+This repository contains code for implementing a trading strategy using an interactive Colab notebook. The notebook allows users to customize parameters, such as API key, stock symbol, timeframe, strategy variables, and hyperparameters, and visualize the results.
 
-## Usage
+## Features
 
-### Running Locally
-1. Update the following variables in the script (`trading_strategy.py`):
-   - `stock_symbol`: The stock symbol you want to trade (e.g., "IBM").
-   - `timeframe`: The timeframe for the stock price data (e.g., "5min").
-   - `investment`: The total investment amount for trading.
-   - `stop_loss_percentage`: The percentage for the stop loss.
-   - `target_percentage`: The percentage for the target.
-   - `short_term_sma_periods`: The number of periods for the short-term Simple Moving Average (SMA).
-   - `long_term_sma_periods`: The number of periods for the long-term Simple Moving Average (SMA).
-   - `api_key`: Your Alpha Vantage API key.
+- Interactive Colab notebook for executing the trading strategy
+- Input widgets for modifying parameters and variables
+- Visualization of the trading strategy using matplotlib
+- Calculation of accuracy, total profit/loss, and elapsed time
 
-2. Run the script.
+## Getting Started
 
-### Running in Google Colab
-1. Open the Jupyter Notebook `trading_strategy_colab.ipynb` in Google Colab.
-2. Update the following parameters in the notebook:
-   - `stock_symbol`: The stock symbol you want to trade (e.g., "IBM").
-   - `timeframe`: The timeframe for the stock price data (e.g., "5min").
-   - `investment`: The total investment amount for trading.
-   - `stop_loss_percentage`: The percentage for the stop loss.
-   - `target_percentage`: The percentage for the target.
-   - `short_term_sma_periods`: The number of periods for the short-term Simple Moving Average (SMA).
-   - `long_term_sma_periods`: The number of periods for the long-term Simple Moving Average (SMA).
-   - `api_key`: Your Alpha Vantage API key.
+To get started with the trading strategy, follow the instructions below:
 
-3. Run the notebook cell-by-cell to execute the code and visualize the results.
+### Prerequisites
 
-## Results
+- Python 3.x
+- Jupyter Notebook or Google Colab (recommended)
 
-After running the trading strategy, the following results will be displayed:
+### Installation
 
-- Total Buy Signals: [number of buy signals]
-- Total Sell Signals: [number of sell signals]
-- Accuracy: [accuracy percentage]
-- Total Profit/Loss: [total profit/loss amount]
-- Elapsed Time: [execution time in seconds]
+1. Clone the repository to your local machine:
 
-Additionally, a visualization of the trading strategy will be displayed, showing the closing price of the stock, buy signals, and sell signals.
 
-## Contributing
+Certainly! Here's a detailed README.md with a description of the code, instructions on how to use it, and links to the Colab notebook and relevant resources:
 
-Contributions are welcome! If you have any suggestions or improvements, please feel free to submit a pull request.
+markdown
+Copy code
+# Trading Strategy with Interactive Colab Notebook
 
-## License
+This repository contains code for implementing a trading strategy using an interactive Colab notebook. The notebook allows users to customize parameters, such as API key, stock symbol, timeframe, strategy variables, and hyperparameters, and visualize the results.
 
-This project is licensed under the [MIT License](LICENSE).
+## Features
+
+- Interactive Colab notebook for executing the trading strategy
+- Input widgets for modifying parameters and variables
+- Visualization of the trading strategy using matplotlib
+- Calculation of accuracy, total profit/loss, and elapsed time
+
+## Getting Started
+
+To get started with the trading strategy, follow the instructions below:
+
+### Prerequisites
+
+- Python 3.x
+- Jupyter Notebook or Google Colab (recommended)
+
+### Installation
+
+1. Clone the repository to your local machine:
+
+git clone <[repository_url](https://github.com/Vinitrajputt/algo-trader.git)>
+
+
+2. Install the required dependencies:
+
+pip install -r requirements.txt
+
+
+
+### Usage
+
+1. Open the Colab notebook [here](<https://colab.research.google.com/drive/1PPCXXzi-uZQsax7O4a_tOq4mtJ4vcl7g?usp=sharing>).
+
+2. Click on the "Open in Colab" button to open the notebook in Google Colab.
+
+3. In the Colab notebook, you can modify the following parameters:
+
+- API key: Paste your Alpha Vantage API key.
+- Stock symbol: Choose a stock symbol or enter a custom one.
+- Timeframe: Select the desired timeframe.
+- Trading strategy variables: Modify investment amount, stop loss percentage, and target percentage.
+- Trading strategy hyperparameters: Adjust short-term and long-term SMA periods.
+
+4. Run the notebook by clicking the "Run" button or using the keyboard shortcut.
+
+5. The trading strategy will be executed, and the results will be displayed, including the visualization of buy and sell signals, accuracy, total profit/loss, and elapsed time.
+
+### Local Development
+
+If you prefer to run the code locally, follow the instructions below:
+
+1. Open the `main.py` file in your preferred Python editor or IDE.
+
+2. Modify the parameters at the beginning of the script, such as API key, stock symbol, timeframe, strategy variables, and hyperparameters.
+
+3. Run the script, and the trading strategy will be executed.
+
+4. The results will be displayed in the console, including the visualization of buy and sell signals, accuracy, total profit/loss, and elapsed time.
+
+## Resources
+
+- [Colab Notebook](<link_to_colab_notebook>)
+- [Alpha Vantage API](https://www.alphavantage.co/)
+
+---
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](<link_to_colab_notebook>)
+
