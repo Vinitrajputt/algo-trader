@@ -2,6 +2,8 @@
 
 This repository contains code for implementing a trading strategy using an interactive Colab notebook. The notebook allows users to customize parameters, such as API key, stock symbol, timeframe, strategy variables, and hyperparameters, and visualize the results.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1PPCXXzi-uZQsax7O4a_tOq4mtJ4vcl7g?usp=sharing)
+
 ## Features
 
 - Interactive Colab notebook for executing the trading strategy
@@ -97,5 +99,5 @@ If you prefer to run the code locally, follow the instructions below:
 
 ---
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](<link_to_colab_notebook>)
+
 
