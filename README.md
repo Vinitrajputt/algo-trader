@@ -51,7 +51,7 @@ To get started with the trading strategy, follow the instructions below:
 
 1. Clone the repository to your local machine:
 
-git clone <[repository_url](https://github.com/Vinitrajputt/algo-trader.git)>
+git clone https://github.com/Vinitrajputt/algo-trader.git
 
 
 2. Install the required dependencies:
